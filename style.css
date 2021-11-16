@@ -1622,6 +1622,18 @@ div .branch-img {
 }
 
 @media (max-width: 420px) {
+
+    .header {
+        height: 70vh;
+    }
+
+    .header-logo img {
+        width: 4rem;
+        margin: 1rem;
+    }
+
+
+
     .header-heading {
         font-size: 2rem;
     }
@@ -1817,7 +1829,7 @@ div .branch-img {
     }
 
     .footer-three {
-        padding: 1rem .4rem;
+        padding: 1rem 1rem;
         font-size: .8rem;
     }
 }
