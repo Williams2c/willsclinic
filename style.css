@@ -1190,7 +1190,7 @@ div .branch-img {
 }
 }
 
-@media (max-width:950px) {
+@media (max-width:990px) {
     .header-heading {
         font-size: 6rem;
      
@@ -1419,6 +1419,10 @@ div .branch-img {
       margin-left: 2rem;
     }
 
+    .hotline-container {
+      text-align: center;
+    }
+
     .hotline-heading {
         font-size: 2rem;
     }
@@ -1535,6 +1539,25 @@ div .branch-img {
     /* end of footer */
 }
 /* end of media max-width 850 */
+
+@media (max-width:770px) {
+    .header-heading {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width:670px) {
+    .contact {
+       flex-direction: column;
+    }
+}
+
+@media (max-width:640px) {
+    .header-heading {
+        font-size: 4rem;
+    }
+}
+
 
 @media (max-width:600px) {
     .header-heading {
