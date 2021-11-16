@@ -465,8 +465,8 @@ body {
 
 .ceo-paragraph {
     font-size: 1.6rem;
-    font-family:'Raleway', sans-serif ;
-    font-weight: 900;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
     letter-spacing: 0.15rem;
     text-align: justify;
     padding: 0rem 2rem 0 0;
@@ -534,9 +534,9 @@ body {
     width: 85%;
     align-self: center;
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 300;
     color: rgb(75, 71, 71);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     letter-spacing: 0.1rem;
 }
 
@@ -624,14 +624,14 @@ body {
     padding: 1.8rem;
     border-radius: 50%;
     position: absolute;
-    right: 1rem;
-    bottom: 8rem;
+    right: 5%;
+    bottom: 20%;
     transition: all .5s;
 }
 
 .medical-service-img ~ div {
     background-color: #fff;
-    margin-bottom: rem;
+    margin-bottom: 0;
     padding-bottom: 0;
     margin-top:0 ;
 }
@@ -671,8 +671,9 @@ body {
 }
 
 .medical-service-list:hover > i {
-    right:13.5rem;
-    bottom: 20.5rem;
+    right:50%;
+    bottom: 50%;
+    transform: translateX(50%);
     background-color: transparent;
 }
 /* end of medical services */
@@ -1144,6 +1145,7 @@ div .branch-img {
     font-size: 1.5rem;
     color: #fff;
     text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
 }
 /* end of footer */
 
@@ -1617,5 +1619,206 @@ div .branch-img {
     .footer-three {
         font-size: 1rem;
     }
+}
 
+@media (max-width: 420px) {
+    .header-heading {
+        font-size: 2rem;
+    }
+    .header-paragraph {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .header-btn {
+        width: 12rem;
+        font-size: 1rem;
+        padding: .8rem .2rem;
+    }
+
+    .hotline-heading {
+        font-size: 1.4rem;
+    }
+
+    
+    .hotline {
+        font-size: 2rem;
+    }
+
+    .mobile-app-heading {
+        font-size: 1.5rem;
+    }
+
+
+    .ceo-header-one {
+        font-size: 1.5rem;
+    }
+
+    .ceo-header-two {
+        font-size: 1.8rem;
+    }
+
+    .ceo-paragraph {
+        font-size: 1.2rem;
+    }
+
+
+    .about-us-heading {
+        font-size: 1.6rem;
+
+    }
+
+    .about-us-paragraph {
+        font-size: 1.2rem;
+    }
+
+    .about-us-img-paragraph {
+        font-size: 1.4rem;
+    }
+
+
+    .medical-service-heading h1 {
+        font-size: 1.6rem;
+    }
+
+    .medical-service-list {
+       margin-bottom: 1rem ;
+    }
+
+    .medical-service-img-header {
+        font-size: 1.4rem;
+    }
+
+    .medical-service-btn {
+        font-size: 1.2rem;
+    }
+
+    .branch-header {
+        font-size: 1.6rem;
+    }
+
+    .branch-location {
+        font-size: 1.4rem;
+    }
+
+    .branch-number {
+        font-size: 1.6rem;
+    }
+
+    .choose-us-heading {
+        font-size: 1.6rem;
+    }
+
+    .benefit > i {
+        font-size: 1.6rem;
+    }
+
+    .benefit-first-heading {
+        font-size: 1.4rem;
+    }
+
+    .benefit-first-paragraph {
+        font-size: 1.2rem;
+    }
+
+    .rating-nunmber {
+        font-size: 1.6rem;
+    }
+
+    .rating-nunmber ~ i {
+        font-size: 1rem;
+        top: 30%;
+    }
+
+    .rateone ~ i {
+        right: 15%;
+    }
+
+    .ratetwo ~ i {
+        right: 40%;
+    }
+
+    .rating-heading {
+        font-size: 1.4rem;
+    }
+
+    .testimonial-header h1{
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    .testimonial-rating i {
+        font-size: .8rem;
+    }
+
+    .testimonial-paragraph {
+        font-size: 1.2rem;
+    }
+    .testimonial-name {
+        font-size: 1.4rem;
+    }
+
+    .news-header {
+        font-size: 1.4rem;
+    }
+
+    .news-heading {
+        font-size: 1.2rem;
+    }
+
+    .news-date-ctn {
+        font-size: 1rem;
+    }
+
+    .news-img-header {
+        font-size: 1.4rem;
+    }
+
+    .footer-icon {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .footer-one-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .footer-one-content p {
+        font-size: 1.2rem;
+    }
+
+    .quick-links-header {
+        font-size: 1.4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .quick-links-itmes {
+        font-size: 1.2rem;
+    }
+
+    .footer-social-signup {
+        font-size: 1.4rem;
+    }
+
+    .footer-socials-heading {
+        font-size: 1.4rem;
+    }
+
+    .footer-social-list {
+        padding: 1rem;
+    }
+
+    .footer-menu-heading {
+        font-size: 1.4rem;
+    }
+
+    .footer-menu-list {
+        font-size: 1.2rem;
+    }
+
+    .footer-three {
+        padding: 1rem .4rem;
+        font-size: .8rem;
+    }
+}
 }
