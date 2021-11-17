@@ -433,7 +433,7 @@ body {
 
 .ceo-img-ctn {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: auto 2rem;
     height: 40rem;
     opacity: .4;
@@ -1169,10 +1169,6 @@ div .branch-img {
    margin: 1rem;
 }
 
-.ceo-img {
-    height: 45rem;
-}
-
 .benefits {
     flex-direction: column;
 
@@ -1549,6 +1545,14 @@ div .branch-img {
 @media (max-width:670px) {
     .contact {
        flex-direction: column;
+    }
+
+    .ceo-img-ctn {
+        height: 35rem;
+    }
+    
+    .ceo-img {
+        height: 100%;
     }
 }
 
