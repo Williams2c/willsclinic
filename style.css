@@ -433,11 +433,11 @@ body {
 
 .ceo-img-ctn {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin: auto 2rem;
-    height: 70rem;
+    height: 40rem;
     opacity: .4;
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 
 .ceo-img {
@@ -447,7 +447,7 @@ body {
 }
 
 .ceo-content {
-    flex-basis: 50% ;
+    flex-basis: 60% ;
     width: 100%;
 }
 
