@@ -1159,6 +1159,20 @@ div .branch-img {
         justify-content: center;
         align-items: center;
     }
+
+    .ceo-img-ctn {
+        display: flex;
+        justify-content: center;
+        margin: 2rem auto ;
+        height: 40rem;
+    }
+    
+    .ceo-img {
+        width: auto;
+        height: 100%;
+        border-radius: 2rem;
+    }
+    
     
 .ceo-content {
     display: flex;
@@ -1546,14 +1560,8 @@ div .branch-img {
     .contact {
        flex-direction: column;
     }
-
-    .ceo-img-ctn {
-        height: 35rem;
-    }
     
-    .ceo-img {
-        height: 100%;
-    }
+   
 }
 
 @media (max-width:640px) {
@@ -1583,6 +1591,22 @@ div .branch-img {
     .ceo-header-two {
         font-size: 2rem;
     }
+
+    .ceo-img-ctn {
+        display: flex;
+        justify-content: center;
+        margin: 2rem auto;
+        height: 30rem;
+        opacity: .4;
+        flex-basis: 90%;
+    }
+    
+    .ceo-img {
+        width: 25rem;
+        height: 100%;
+        border-radius: 2rem;
+    }
+    
 
     .about-us-heading {
         font-size: 2rem;
